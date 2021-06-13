@@ -41,7 +41,7 @@ parser.add_option("--website", dest="website",help="choose a website")
 (options, args) = parser.parse_args()
 
 
-CHROME_DVR_DIR = 'C:\Users\chron\Hatch\chromedriver.exe'
+CHROME_DVR_DIR = 'C:\Users\chron\Hatch'
 
 def wizard():
     print (banner)
